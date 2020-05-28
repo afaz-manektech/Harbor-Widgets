@@ -1,2 +1,4 @@
-# widget-document
-The thorough documentation for the widgets
+# Harbor Widgets
+Here is the thorough description of available widgets in harbor for use on the client websites.
+
+* [Book on touch](widgets/BookOnTouch.md)
