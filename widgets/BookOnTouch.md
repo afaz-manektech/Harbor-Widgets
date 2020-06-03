@@ -179,3 +179,12 @@ number | default value: 120
 ```html
 <div is="book-on-touch" :thanks-page-timeout="25"></div>
 ```
+
+#### bound-focus-padding
+
+This parameter is used to set padding for the boundbox in the map when a boundbox is active.
+
+number | default value: 50
+```html
+<div is="book-on-touch" :bound-focus-padding="150"></div>
+```
