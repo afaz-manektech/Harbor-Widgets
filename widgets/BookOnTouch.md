@@ -10,7 +10,7 @@ Parameters:
 
 This parameter is used to show the name on the welcome screen.
 
-string | default value: null
+string | default value: null |
 ```html
 <div is="book-on-touch" greeter-name="Tenzer"></div>
 ```
@@ -19,7 +19,7 @@ string | default value: null
 
 This parameter is used to add the url for the logo to be used on welcome screen.
 
-string | default value: null
+string | default value: null |
 ```html
 <div is="book-on-touch" logo="http://url-to-logo"></div>
 ```
@@ -28,7 +28,7 @@ string | default value: null
 
 This parameter is used to set the value for default people for the widget. The values represent the id of the people from harbor and the value to be used.
 
-object | default value: null
+object | default value: null |
 ```html
 <div is="book-on-touch" :default-people="{1:2,2:1}"></div>
 ```
@@ -37,7 +37,7 @@ object | default value: null
 
 This parameter is used to set the value for people and override the values which is set by the backend. The values represent the id of the people from harbor and the value to be used.
 
-object | default value: null
+object | default value: null |
 ```html
 <div is="book-on-touch" :override-people="{1:2,2:1}"></div>
 ```
@@ -46,7 +46,7 @@ object | default value: null
 
 This parameter is used to either enable or disable the analytics on the widget.
 
-boolean | default value: true
+boolean | default value: true |
 ```html
 <div is="book-on-touch" :analytics="true"></div>
 ```
@@ -55,7 +55,7 @@ boolean | default value: true
 
 This parameter is used to either enable or disable the features on the accommodation.
 
-boolean | default value: true
+boolean | default value: true |
 ```html
 <div is="book-on-touch" :show-features="true"></div>
 ```
@@ -64,7 +64,7 @@ boolean | default value: true
 
 This parameter is used to either enable or disable the information on the accommodation.
 
-boolean | default value: true
+boolean | default value: true |
 ```html
 <div is="book-on-touch" :show-information="true"></div>
 ```
@@ -73,7 +73,7 @@ boolean | default value: true
 
 This parameter is used to set the theme for the accommodation.
 
-string | default value: normal | possible values: normal, alternative
+string | default value: normal | possible values: normal,  |alternative
 ```html
 <div is="book-on-touch" theme="alternative"></div>
 ```
@@ -82,7 +82,7 @@ string | default value: normal | possible values: normal, alternative
 
 This parameter is used to determine if the widget should reset when there is no activity for certain time (another parameter: idle-reset-time). The widget will refresh the page when there is no activity for the set time if this parameter is set to true. If the parameter is set to false, the widget will stay wherever it is for as long until the page is manually refreshed.
 
-boolean | default value: true
+boolean | default value: true |
 ```html
 <div is="book-on-touch" :should-reset-when-idle="true"></div>
 ```
@@ -93,7 +93,7 @@ This parameter is used to set the reset time for the widget. If for the set time
 
 The value represent seconds.
 
-number | default value: 300
+number | default value: 300 |
 ```html
 <div is="book-on-touch" :idle-reset-time="180"></div>
 ```
@@ -102,7 +102,7 @@ number | default value: 300
 
 This parameter is used to set the sales channel to be used to post the booking to tommy. There is no sales channels in harbor. The parameter must be provided the id from the tommy sales channels.
 
-number | default value: null
+number | default value: null |
 ```html
 <div is="book-on-touch" :sales-channel="12883"></div>
 ```
@@ -111,7 +111,7 @@ number | default value: null
 
 This parameter is used to set the available language for the widget.
 
-object | default value: {nl:'Nederlands'} | possible values: {nl:'Nederlands',de:'Duits',en:'Engels',fr:'Frans'}
+object | default value: {nl:'Nederlands'} | possible values:  |{nl:'Nederlands',de:'Duits',en:'Engels',fr:'Frans'}
 ```html
 <div is="book-on-touch" :languages="{nl:'Nederlands',de:'Duits',en:'Engels'}"></div>
 ```
@@ -120,7 +120,7 @@ object | default value: {nl:'Nederlands'} | possible values: {nl:'Nederlands',de
 
 This parameter is used to limit the widget to the provided category. The accommodation from only the provided category will be allowed to book.
 
-number | default value: null
+number | default value: null |
 ```html
 <div is="book-on-touch" :category-id="2"></div>
 ```
@@ -129,7 +129,7 @@ number | default value: null
 
 This parameter is used to limit the widget to the provided categories. The accommodation from only the provided categoies will be allowed to book. There will be filters on the accommodations selection screen to filter the list of accommodation per category.
 
-array | default value: null
+array | default value: null |
 ```html
 <div is="book-on-touch" :filtered-categories="[1,2]"></div>
 ```
@@ -138,7 +138,7 @@ array | default value: null
 
 This parameter is used to enable or disable the remarks field on personal data form.
 
-boolean | default value: false
+boolean | default value: false |
 ```html
 <div is="book-on-touch" :remarks-field="true"></div>
 ```
@@ -151,7 +151,7 @@ country, postcode, houseNumber, street, city, telephone, licenceNumber
 
 To enable any or some of these field use parameter short-data-fields.
 
-boolean | default value: false
+boolean | default value: false |
 ```html
 <div is="book-on-touch" :short-personal-data="true"></div>
 ```
@@ -164,7 +164,7 @@ country, postcode, houseNumber, street, city, telephone, licenceNumber
 
 To enable any or some of these field use parameter short-data-fields.
 
-array | default value: null
+array | default value: null |
 ```html
 <div is="book-on-touch" :short-personal-data="true" :short-data-fields="['postcode','houseNumber','licenceNumber']"></div>
 ```
@@ -175,7 +175,7 @@ This parameter is used to set the value for timeout after the booking is success
 
 The value represent seconds.
 
-number | default value: 120
+number | default value: 120 |
 ```html
 <div is="book-on-touch" :thanks-page-timeout="25"></div>
 ```
@@ -184,7 +184,7 @@ number | default value: 120
 
 This parameter is used to set padding for the boundbox in the map when a boundbox is active.
 
-number | default value: 50
+number | default value: 50 |
 ```html
 <div is="book-on-touch" :bound-focus-padding="150"></div>
 ```
