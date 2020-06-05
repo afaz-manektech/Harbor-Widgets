@@ -14,7 +14,7 @@ The array accepts the objects with title and link parameters as shown in the exa
 
 array | default value: []
 ```html
-<div is="booking" :terms=":terms="[{ title: 'Term Title', link: 'https://url-to-term-link' }]""></div>
+<div is="booking" :terms="[{ title: 'Term Title', link: 'https://url-to-term-link' }]"></div>
 ```
 
 #### confirm-location
