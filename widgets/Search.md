@@ -12,7 +12,7 @@ This parameter is used to pass the configuration.
 
 Each possible values accepts boolean values (true/false).
 
-object | default value: { generalCategories: true, categories: true, arrival: true, button: true } |
+object | default value: { generalCategories: true, categories: true, arrival: true, button: true }
 
 ##### possible values:
 
