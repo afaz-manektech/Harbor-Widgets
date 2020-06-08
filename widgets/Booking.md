@@ -70,13 +70,13 @@ boolean | default value: false
 
 This parameter is used to enable any or some of the fields which are disabled by short personal data flag. These fields are available to enable.
 
-country, postcode, houseNumber, street, city, telephone, licenceNumber
+country, postcode, houseNumber, street, city, telephone
 
 To enable any or some of these field use parameter short-data-fields.
 
 array | default value: null
 ```html
-<div is="booking" :short-personal-data="true" :short-data-fields="['postcode','houseNumber','licenceNumber']"></div>
+<div is="booking" :short-personal-data="true" :short-data-fields="['postcode','houseNumber']"></div>
 ```
 
 #### a-b-test
@@ -104,4 +104,17 @@ This parameter is used to set extra offset for autoscroll when navigated between
 number | default value: 0
 ```html
 <div is="booking" :scroll-offset="150"></div>
+```
+
+#### additional-fields
+
+This parameter is used to enable any or some of the fields which are custom added to tommy. New fields may need to be added on the code. Below is the currently available additional field.
+
+licenceNumber
+
+To enable any or some of these field use parameter additional-fields.
+
+array | default value: null
+```html
+<div is="book-on-touch" :additional-fields="['licenceNumber']"></div>
 ```
