@@ -160,13 +160,13 @@ boolean | default value: false
 
 This parameter is used to enable any or some of the fields which are disabled by short personal data flag. These fields are available to enable.
 
-country, postcode, houseNumber, street, city, telephone, licenceNumber
+country, postcode, houseNumber, street, city, telephone
 
 To enable any or some of these field use parameter short-data-fields.
 
 array | default value: null
 ```html
-<div is="book-on-touch" :short-personal-data="true" :short-data-fields="['postcode','houseNumber','licenceNumber']"></div>
+<div is="book-on-touch" :short-personal-data="true" :short-data-fields="['postcode','houseNumber']"></div>
 ```
 
 #### thanks-page-timeout
@@ -187,4 +187,17 @@ This parameter is used to set padding for the boundbox in the map when a boundbo
 number | default value: 50
 ```html
 <div is="book-on-touch" :bound-focus-padding="150"></div>
+```
+
+#### additional-fields
+
+This parameter is used to enable any or some of the fields which are custom added to tommy. New fields may need to be added on the code. Below is the currently available additional field.
+
+licenceNumber
+
+To enable any or some of these field use parameter additional-fields.
+
+array | default value: null
+```html
+<div is="book-on-touch" :short-personal-data="true" :additional-fields="['licenceNumber']"></div>
 ```
