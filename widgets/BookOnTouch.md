@@ -199,5 +199,5 @@ To enable any or some of these field use parameter additional-fields.
 
 array | default value: null
 ```html
-<div is="book-on-touch" :short-personal-data="true" :additional-fields="['licenceNumber']"></div>
+<div is="book-on-touch" :additional-fields="['licenceNumber']"></div>
 ```
