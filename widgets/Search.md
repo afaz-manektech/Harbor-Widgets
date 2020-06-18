@@ -14,7 +14,7 @@ Each possible values accepts boolean values (true/false).
 
 object | default value: `{ generalCategories: true, categories: true, arrival: true, button: true }`
 
-##### possible values:
+##### Possible values:
 
 * accommodations 
 * accommodation 
@@ -77,7 +77,7 @@ boolean | default value: `false`
 
 #### strict
 
-This parameter instructs the widget to use the provided options striclty instead of session values.
+This parameter instructs the widget to use the provided options strictly instead of session values.
 
 boolean | default value: `false`
 
