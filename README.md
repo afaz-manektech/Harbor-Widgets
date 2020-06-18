@@ -6,3 +6,4 @@ Here is the thorough description of available widgets in harbor for use on the c
 * [Book on touch](widgets/book-on-touch)
 * [Booking widget](widgets/booking)
 * [Pandora Button](widgets/pandora-button)
+* [Rhea (Price Matrix)](widgets/rhea)
