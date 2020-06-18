@@ -96,8 +96,8 @@ Each possible values accepts boolean values (true/false).
 object | default value: `{ top: true, categories: true, arrival: true, departure: true, filter: void 0 }`
 
 ##### Possible values:
->
- * accommodations 
+
+* accommodations 
 * accommodation 
 * top 
 * categories 
