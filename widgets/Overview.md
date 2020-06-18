@@ -230,3 +230,122 @@ string | default value: `normal`
 ```html
 <div is="overview" theme="alternative"></div>
 ```
+
+#### marker
+
+Specify the image url for the markers on map container.
+
+string | default value: `/images/marker.png`
+
+```html
+<div is="overview" marker="http://external.com/images/marker.png"></div>
+```
+
+#### color
+
+Specify the color for the clusters on map container.
+
+string | default value: `#77873c`
+
+```html
+<div is="overview" color="#fff"></div>
+```
+
+#### accommodation-book-now-buttons
+
+Show the more info button and book now button on accommodations.
+
+> More info button will point to url field in accommodation in harbor.  
+> Book now button will point to booking url field in accommodation in harbor.
+
+boolean | default value: `false`
+
+```html
+<div is="overview" :accommodation-book-now-buttons="true"></div>
+```
+
+#### show-features
+
+Show or hide features in accommodations.
+
+boolean | default value: `true`
+
+```html
+<div is="overview" :show-features="false"></div>
+```
+
+#### show-information
+
+Show or hide information in accommodations.
+
+boolean | default value: `false`
+
+```html
+<div is="overview" :show-information="true"></div>
+```
+
+#### overlay
+
+Loads the overview as overlay.
+
+> This is a work in progress thing.
+
+boolean | default value: `false`
+
+```html
+<div is="overview" :overlay="true"></div>
+```
+
+#### more-info-link-target
+
+Specify the target for more info button. Should be used with `:accommodation-book-now-buttons="true"`
+
+> Possible values  
+> `_blank` | `_parent` | `_self` | `_top`
+
+string | default value: `_blank`
+
+```html
+<div is="overview" :accommodation-book-now-buttons="true" more-info-link-target="_self"></div>
+```
+
+#### default-order
+
+Load the accommodations in the order which is set in Harbor. By default the widget will try to load accommodations by sorting them according to maximum_people value for each accommodation.
+
+boolean | default value: `false`
+
+```html
+<div is="overview" :default-order="true"></div>
+```
+
+#### book-now-reserve-button
+
+Enable or disable book now reserve button when book now buttons are enabled. Should be used with `:accommodation-book-now-buttons="true"`
+
+boolean | default value: `true`
+
+```html
+<div is="overview" :accommodation-book-now-buttons="true" :book-now-reserve-button="false"></div>
+```
+
+#### book-now-more-info-button
+
+Enable or disable more info button when book now buttons are enabled. Should be used with `:accommodation-book-now-buttons="true"`
+
+boolean | default value: `true`
+
+```html
+<div is="overview" :accommodation-book-now-buttons="true" :book-now-more-info-button="false"></div>
+```
+
+#### search-filters
+
+This parameter is used to set the search filter for the Search widget. The parameter accepts the key value form where key is the id of filter and the value is boolean 0 or 1. 
+An example of this can be seen on Greencamp site.
+
+object | default value: `null`
+
+```html
+<div is="overview" :search-filters="{21:1}"></div>
+```
