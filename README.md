@@ -12,4 +12,6 @@ Here is the thorough description of available widgets in harbor for use on the c
 
 #### Programmatically used widgets
 
+> Description in the widgets below might be more technical.
+
 * [Telesto](widgets/telesto)
