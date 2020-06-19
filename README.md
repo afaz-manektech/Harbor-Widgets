@@ -13,6 +13,7 @@ Here is the thorough description of available widgets in harbor for use on the c
 * [Calypso](widgets/calypso)
 * [Titan](widgets/titan)
 * [Bar](widgets/bar)
+* [Contact](widgets/contact)
 
 #### Programmatically used widgets
 
