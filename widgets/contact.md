@@ -14,7 +14,7 @@ Load the accommodations of provided category.
 number | default value: `null`
 
 ```html
-<div is="contact" category-id="1"></div>
+<div is="contact" :category-id="1"></div>
 ```
 
 #### accommodation-id
@@ -24,7 +24,7 @@ Load the contact form for the provided accommodation.
 number | default value: `null`
 
 ```html
-<div is="contact" accommodation-id="1"></div>
+<div is="contact" :accommodation-id="1"></div>
 ```
 
 #### global

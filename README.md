@@ -15,6 +15,7 @@ Here is the thorough description of available widgets in harbor for use on the c
 * [Bar](widgets/bar)
 * [Contact](widgets/contact)
 * [Overview Packages](widgets/overview-packages)
+* [Map View](widgets/map-view)
 
 #### Programmatically used widgets
 
