@@ -37,16 +37,6 @@ boolean | default value: `false`
 <div is="contact" :global="true"></div>
 ```
 
-#### availability
-
-Setting this parameter to true will allow updating the selected values as per changes in other global widgets.
-
-boolean | default value: `false`
-
-```html
-<div is="contact" :availability="true"></div>
-```
-
 #### show-search
 
 Show or hide the search widget within contact widget.
