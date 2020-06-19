@@ -9,9 +9,9 @@ Here is the thorough description of available widgets in harbor for use on the c
 * [Booking widget](widgets/booking)
 * [Pandora Button](widgets/pandora-button)
 * [Rhea (Price Matrix)](widgets/rhea)
+* [Telesto](widgets/telesto)
+* [Calypso](widgets/calypso)
 
 #### Programmatically used widgets
 
 > Description in the widgets below might be more technical.
-
-* [Telesto](widgets/telesto)
