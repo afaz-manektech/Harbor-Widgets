@@ -12,6 +12,7 @@ Here is the thorough description of available widgets in harbor for use on the c
 * [Telesto](widgets/telesto)
 * [Calypso](widgets/calypso)
 * [Titan](widgets/titan)
+* [Bar](widgets/bar)
 
 #### Programmatically used widgets
 
