@@ -11,6 +11,7 @@ Here is the thorough description of available widgets in harbor for use on the c
 * [Rhea (Price Matrix)](widgets/rhea)
 * [Telesto](widgets/telesto)
 * [Calypso](widgets/calypso)
+* [Titan](widgets/titan)
 
 #### Programmatically used widgets
 
