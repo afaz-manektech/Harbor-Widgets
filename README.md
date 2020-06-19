@@ -10,6 +10,6 @@ Here is the thorough description of available widgets in harbor for use on the c
 * [Pandora Button](widgets/pandora-button)
 * [Rhea (Price Matrix)](widgets/rhea)
 
-#### Programatically used widgets
+#### Programmatically used widgets
 
 * [Telesto](widgets/telesto)
