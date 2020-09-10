@@ -116,5 +116,77 @@ To enable any or some of these field use parameter additional-fields.
 
 array | default value: null
 ```html
-<div is="book-on-touch" :additional-fields="['licenceNumber']"></div>
+<div is="booking" :additional-fields="['licenceNumber']"></div>
+```
+
+#### scroll-offset
+
+This parameter is used to set the offset for autoscroll when step is navigated forward or backward.
+
+number | default value: 0
+```html
+<div is="booking" :scroll-offset="100"></div>
+```
+
+#### languages
+
+The parameter is used to set the switchable languages on the booking widget.
+
+object | default value: `{nl:''Nederlands'}` | possible value: `{nl:'Nederlands',de:'Duits',en:'Engels',fr:'Frans'}`
+```html
+<div is="booking" :languages="{nl:'Nederlands',de:'Duits',en:'Engels',fr:'Frans'}"></div>
+```
+
+#### help-phone
+
+Specify the contact number to be shown on need help section. If value for this parameter is present then the phone link will be shown in the need help section otherwise only the email button will be shown.
+
+string | default value: null
+```html
+<div is="booking" help-phone="0341 –751 752"></div>
+```
+
+#### logo
+
+Specify the url of logo to be shown on the overlay loading message. If the logo is not present it will not be shown on the widget, only the loading message will be shown.
+
+string | default value: null
+```html
+<div is="booking" logo="https://demo.tenzer.nl/images/logo.png"></div>
+```
+
+#### max-articles
+
+Specify the threshold to show the maximum number of articles initially. If more than specified articles are present then the expand button will be shown.
+
+number | default value: 5
+```html
+<div is="booking" :max-articles="3"></div>
+```
+
+#### location-icon-size
+
+Specify the size of the location icon div so that the map library shows the icon on correct place.
+
+array, number | default value: null
+```html
+<div is="booking" :location-icon-size="20"></div>
+```
+
+#### auto-scroll
+
+Enable autoscroll widget into view when loaded.
+
+boolean | default value: false
+```html
+<div is="booking" :auto-scroll="true"></div>
+```
+
+#### scroll-variation
+
+If not satisfied with the autocalculated scroll position, the variation can be added to autodetected position using this parameter.
+
+number | default value: 0
+```html
+<div is="booking" :scroll-variation="10"></div>
 ```
